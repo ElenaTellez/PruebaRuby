@@ -25,6 +25,7 @@ class Anidados
             end
             else
                 print "El número es 0"
+		print "Gracias por participar"
             end
         end
     end
