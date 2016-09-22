@@ -3,26 +3,26 @@ class Anidados
       def initialize()
       end
       def saluda() 
-            puts "Ingrese un numero:"
+            puts "Ingrese un número:"
             STDOUT.flush
             i=gets.chomp
             i=i.to_i
             if i>0
-                puts "El numero es positivo"
+                puts "El número es positivo"
             if(i%2==0)
-         puts "El numero es par"
+         puts "El número es par"
      else
-         puts "El numero es impar"
+         puts "El número es impar"
      end
             elsif i<0
                 puts "El numero es negativo"
             if(i%2==0)
-         puts "El numero es par"
+         puts "El número es par"
      else
-         puts "El numero es impar"
+         puts "El número es impar"
             end
             else
-                print "El numero es 0"
+                print "El número es 0"
             end
         end
     end
